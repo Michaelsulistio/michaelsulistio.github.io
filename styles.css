@@ -1,0 +1,13 @@
+.lg-header {
+    color: white;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+.lg-header .h1 {
+    font-size: large;
+    text-align: center;
+}
+
+.lg-header .p {
+    font-size: medium
+}
