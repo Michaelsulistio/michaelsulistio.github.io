@@ -4,10 +4,12 @@
 }
 
 .lg-header h1 {
-    font-size: large;
-    text-align: center;
+    font-size: xx-large;
+    text-align: right;
 }
 
 .lg-header p {
-    font-size: medium
+    font-size: medium;
+    text-align: left;
+    padding-left: 20%;
 }
