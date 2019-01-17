@@ -3,11 +3,11 @@
     font-family: 'Oxygen Mono', monospace;
 }
 
-.lg-header .h1 {
+.lg-header h1 {
     font-size: large;
     text-align: center;
 }
 
-.lg-header .p {
+.lg-header p {
     font-size: medium
 }
