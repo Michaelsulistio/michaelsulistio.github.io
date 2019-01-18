@@ -1,22 +1,28 @@
 .lg-header {
     color: black;
-    font-family: 'PT Serif', serif;
-    padding-left: 25%;
-    padding-right: 25%;
-    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    display: flex;
+    padding-top: 3%;
 }
 
-.lg-header h1 {
+h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: xx-large;
+    text-align: center;
+    padding-top: 5%;
 }
 
 .lg-header p {
-    font-size: medium;
+    font-size: small;
+    text-align: left;
 }
 
 #profile-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 40%;
+    vertical-align: middle;
+    margin-left: 5%;
+    box-shadow: 3px 3px 5px grey;
 }
