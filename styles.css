@@ -22,7 +22,7 @@ h1 {
 
 #profile-pic {
     width: 40%;
-    vertical-align: middle;
+    vertical-align: left;
     margin-left: 5%;
     box-shadow: 3px 3px 5px grey;
 }
@@ -35,4 +35,42 @@ h1 {
 
 .social-box a {
     color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    .lg-header {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 3%;
+    }
+
+    #profile-pic {
+        width: 50%;
+        box-shadow: 3px 3px 5px grey;
+    }
+
+    .lg-header p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .social-box {
+        font-family: 'Oxygen Mono', sans-serif;
+        padding-top: 5%;
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    h1 {
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: 32px;
+        text-align: center;
+        padding-top: 5%;
+    }
+
 }
